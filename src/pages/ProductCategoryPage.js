@@ -9,7 +9,7 @@ import ProductList from '../components/ProductList';
 
 const ProductCategoryPage = (props) => {
     const {categoryName} = useParams();
-   
+   console.log("Hello " + categoryName);
     useEffect(()=>{
 
         

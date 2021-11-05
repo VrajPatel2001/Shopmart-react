@@ -8,7 +8,7 @@ import {
 
 import HomePage from "../pages/HomePage";
 import ProductCategoryPage from "../pages/ProductCategoryPage"
-import ProductDescription from "../pages/ProductDescription"
+import ProductDescriptionPage from "../pages/ProductDescriptionPage"
 import ProductListPage from "../pages/ProductListPage"
 import SignUpPage from "../pages/SignUpPage"
 
@@ -23,6 +23,7 @@ const App = () => {
 const [products,setProducts] =  useState([{}]);
 const [productCategories, setProductCategories] = useState([]);
 const [bestSeller, setBestSeller] = useState([{}]);
+const [product,setProduct] =  useState({});
 
   return (
     <div>
@@ -44,7 +45,17 @@ const [bestSeller, setBestSeller] = useState([{}]);
                       <ProductListPage products={products} setProducts={setProducts} />
                   </Route>
         </Switch>
+        <Switch>
+        <Route exact path="/productDescription/:productId">
+                      <ProductDescriptionPage product={product} setProduct={setProduct} />
+                  </Route>
+        </Switch>
 
+        <Switch>
+        <Route exact path="/signUp">
+                      <SignUpPage />
+                  </Route>
+        </Switch>
 
       </Router>
     </div>

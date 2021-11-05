@@ -1,3 +1,5 @@
+
+
 *{
   margin: 0;
   padding: 0;
@@ -426,4 +428,297 @@ height:auto;
 .categoryName a{
   text-decoration: none;
   color: white;
+}
+
+/* Description page */
+/* .movie-detail
+{
+    position:relative;
+    margin:3% 0;
+    margin-left:10px;
+}
+.left-box
+{
+    color:#fff;
+    margin:15px 0;
+    padding: 20px;
+}
+
+.left-box a
+{
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-top: 15px;
+    color: #fff !important;
+    background:#107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.left-box h1
+{
+    color:rgb(87, 195, 228) ;
+}
+
+.left-box img
+{
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left:30%;
+}
+.movie-img
+{
+    height: 490px;
+    box-shadow: -4px 4px 5px 0 #000;
+    border-radius: 10px;
+
+}
+@media screen and (max-width:768px)
+{
+    .movie-img{
+        display: none;
+    }
+} */
+
+
+
+.description{
+  color:white;
+  display: flex;
+  /* width: 100%; */
+ 
+}
+.productImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  margin: 0%;
+  padding: 0%;
+
+}
+.productImage img{
+  width: 70%;
+  max-height: 90%;
+}
+.productdetail{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; */
+  width: 50%;
+  
+  
+}
+.productdetail ul{
+   margin-top: 65px;
+  
+}
+.productdetail ul h2{margin-bottom: 20px; }
+.productdetail ul h5{margin-bottom: 20px;}
+.productdetail ul a{
+  text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-top: 15px;
+    color: #fff !important;
+    background:#107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+  
+  margin-bottom: 20px;}
+.productdetail ul h3{margin-top: 20px;}
+
+
+
+/* Sign Up page */
+.loginbox{
+	width: 380px;
+    height: auto;
+	position: relative;
+background-color: #fff;
+border-radius: 10px;
+	color: #fff;
+	left:50%;
+    margin-top: 250px; 
+    margin-bottom: -125px;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.signUp
+{
+    height: 600px !important;
+    margin-top: 300px;
+    /* margin-bottom: -100px; */
+}
+
+.login{
+	margin: -5px;
+    margin-top: -20px;
+    margin-bottom:10px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+
+    color: black;
+
+
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+    font-size: 22px;
+	font-weight: bold;
+    color: black;
+
+}
+
+.loginbox label{
+	margin: 0;
+	padding: 0;
+    font-size: 15px;
+	font-weight: bold;
+    color: black;
+
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 14px;
+    color: black;
+	border: none;
+	border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+.loginbox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	background: transparent;
+	font-size: 14px;
+
+	outline: none;
+	height: 40px;
+    color: rgb(0, 0, 0);
+    
+	}	
+
+.loginbox input[type="text"],input[type="email"]
+{
+	border: none;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	background: transparent;
+	font-size: 14px;
+
+	outline: none;
+	height: 40px;
+    color: rgb(0, 0, 0);
+    
+}
+	
+
+
+
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:rgb(87, 195, 228);
+	color: #fff;
+	font-size: 18px;
+    font-weight: bold;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: rgb(24, 152, 190);
+	color: rgb(255, 255, 255);
+}
+.loginbox a{
+	text-decoration: 12px;
+	font-size: 15px;
+	line-height: 20px;
+	color: darkgrey;
+	margin-bottom: 10px;
+}
+.loginbox a:hover{
+	color: rgb(24, 152, 190);
+}
+
+
+
+.error{
+    color:red;
+    margin-top :-20px;
+    margin-bottom: 10px;
+    padding:5px;
+
+}
+
+.content
+{
+    color: rgb(38, 197, 245);
+}
+.content1
+{
+    font-weight: 500;
+    font-size:1.3rem;
+    margin-bottom: 10px;
+}
+.dash
+{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.dash a{
+    border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+    font-weight: bold;
+	border-radius: 20px;
+    text-decoration: none;
+    margin-top:10px;
+}
+
+@media screen and (max-width:625px)
+{
+    .dash{
+        margin-top:100px;
+        margin-left:10px;
+    }
+    .loginbox{
+        width: 350px;
+        /* height: 420px; */
+        height: auto;
+        position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+        color: #fff;
+        left:50%;
+        top:50%;
+        margin-top: 350px; 
+        margin-bottom: -125px;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+    }
+    
+    .signUp
+    {
+        height: 650px !important;
+        margin-bottom: -150px;
+    
+    }
+    
 }

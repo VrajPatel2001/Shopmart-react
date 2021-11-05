@@ -4,7 +4,7 @@ const ProductItem = (props) => {
     return (
         <li>
         <div className="box">
-    <div className="Img"><a href={`/`}><img src={props.image}/> </a></div>
+    <div className="Img"><a href={`/productDescription/${props.id}`}><img src={props.image}/> </a></div>
     <div className="Text"> {props.name}</div>
     </div>
      </li>
