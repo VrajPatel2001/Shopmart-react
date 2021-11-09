@@ -11,7 +11,7 @@ const ProductDescription = (props) => {
 <ul>
 <h2> {props.productName}</h2>
 <h5>{props.productDescription}</h5>
-<a href="">Buy at ${props.productPrice}</a>
+<a href="/">Buy at ${props.productPrice}</a>
 <h3>Category: {props.productCategory}</h3>
 </ul>
 
