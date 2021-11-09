@@ -8,3 +8,4 @@
 1. Start React project by running **npm start**
 1. Create  a file called **_redirects** within the public folder.
 1. Inside the _redirects file, add the following code : **/* /index.html 200**
+1. Type the command **npm run start** to run the program
